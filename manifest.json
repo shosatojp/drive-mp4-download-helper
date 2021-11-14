@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "drive-mp4-download-helper",
+    "version": "0.0.1",
+    "author": "shosato",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.c.drive.google.com/*"
+            ],
+            "js": [
+                "c.drive.google.com.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://youtube.googleapis.com/*"
+            ],
+            "all_frames": true,
+            "js": [
+                "drive.google.com.js"
+            ]
+        }
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ]
+}
