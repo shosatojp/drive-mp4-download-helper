@@ -1,6 +1,6 @@
 # drive-mp4-download-helper
 
-- add download button on mp4 video which is not allowed to download
+- add download button on google drive mp4 video which is not allowed to download
 
 ## Install
 
